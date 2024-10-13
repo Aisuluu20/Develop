@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  background: #0b0b22;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/* HEADER */
+#header {
+  padding: 30px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header-nav a {
+  color: rgba(255, 255, 255, 0.819);
+  font-size: 20px;
+  margin: 0 25px;
+}
+
+.header button {
+  color: white;
+  background: #ffffff21;
+  font-size: 22px;
+  padding: 15px 45px;
+  border-radius: 10px;
+  border: none;
+}
+/* HEADER */
+
+/* HERO */
+#hero {
+  padding: 50px 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.hero h3 {
+  color: #16fcd2;
+  letter-spacing: 2.5px;
+  font-size: 23px;
+}
+
+.hero h1 {
+  font-size: 46px;
+  color: white;
+}
+
+.hero p {
+  color: #ffffffa5;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 30px;
+}
+
+.btn-left {
+  color: white;
+  font-size: 22px;
+  background: #6016fc;
+  padding: 14px 55px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-right {
+  color: white;
+  font-size: 22px;
+  background: #ffffff21;
+  padding: 14px 55px;
+  border-radius: 10px;
+  border: none;
+}
+/* HERO */
+
+/* CARD */
+#card {
+  padding: 80px 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-block {
+  width: 280px;
+  border-radius: 9px;
+  height: 276px;
+  background: #81818128;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  padding: 20px 40px;
+}
+
+.card-block h2 {
+  color: white;
+}
+
+.card-block p {
+  color: rgba(255, 255, 255, 0.311);
+  font-size: 23px;
+  line-height: 33px;
+}
+/* CARD */
+
+/* FOOTER */
+#footer {
+  padding: 30px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* FOOTER */
